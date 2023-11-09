@@ -2,14 +2,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 10%;
 }
 .prensaVideos {
-    width: 70vw;
-    padding: 5% 0;
+    width: 95vw;
+    padding: 15% 0 10% 0;
 }
 
 h3 {
-    font-size: 30px;
     text-align: center;
-    padding-top: 10%;
+}
+
+@media (min-width:1280px) {
+    
+    .prensaVideos {
+        width: 65vw;
+        padding: 6% 0 0 0;
+    }
 }

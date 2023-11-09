@@ -1,9 +1,12 @@
 import React from 'react'
 import './News.css'
+import Footer from '../Footer/Footer'
 
 function News() {
   return (
-    <div className='prensaContainer'>
+    <div>
+
+      <div className='prensaContainer'>
         <h3>Prensa.</h3>
         
         <video controls className='prensaVideos'>
@@ -16,6 +19,8 @@ function News() {
             Tu navegador no soporta la reproducción de videos.
         </video>
 
+      </div>
+      <Footer/>
     </div>
   )
 }
