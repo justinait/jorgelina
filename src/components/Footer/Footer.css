@@ -1,0 +1,49 @@
+.footer {        
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+    background-color: #4B4B4B;
+    color: white;
+    height: 30vh;
+    font-weight: 100;
+    font-size: small;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Red Hat Display';
+}
+.socialBox {
+    margin: auto;
+}
+.social {
+    display: flex; 
+    padding: 1%;
+}
+.social p {
+    margin: 0;
+    padding-left: 10px;
+}
+.copy {
+    font-size: 8px;
+}
+.copy p {
+    margin-bottom: 0;
+    color: white;
+}
+@media (min-width: 992px) {
+    .footer {    
+        display: flex;
+        justify-content: space-between;
+        height: 22vh;
+        font-size: larger;
+        align-items: center;
+        flex-direction: row;   
+        padding: 0 15%;    
+    }
+    .socialBox {
+        margin: 0;
+    }
+    
+    .copy {
+        font-size: 12px;
+    }
+}

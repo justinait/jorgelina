@@ -1,0 +1,85 @@
+.gallery {
+    margin: 10%;
+    margin-top: 60px;
+}
+
+.serieTitle {
+    margin-left: 4%;
+    margin-top: 24%;
+}
+
+.galleryContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.paintingContainer {
+    padding-bottom: 15%;
+}
+
+.galleryPainting {
+    padding: 1%;
+    width: 80vw;
+    margin-top: 5%;
+}
+
+@media (min-width: 614px){
+    
+    .paintingContainer {
+        padding-bottom: unset;
+        width: 43%;
+        padding: 2%;
+    }
+    
+    .gallery {
+        margin-top: 13%;
+    }
+    
+    .galleryContainer {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .galleryPainting {
+        width: 80%;
+        object-fit: cover;
+        justify-content: flex-start;
+        aspect-ratio: 1/1;
+        margin-top: 0%;
+    }
+    
+    .serieTitle {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 992px){
+
+    .paintingContainer {
+        width: 33%;
+        padding: 2%;
+    }
+
+    .galleryPainting {
+        width: 90%;
+    }
+    .paintingDescription{
+        width: 75%;
+    }
+    .serieTitle {
+        margin-top: 15%;
+    }
+
+    .galleryPainting:hover{
+        background-color: white;
+        opacity: 0.4;
+        padding: 1%;
+        transition-property:  all;
+        transition-duration: 0.5s;
+    }
+}

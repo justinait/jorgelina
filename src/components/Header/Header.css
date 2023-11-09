@@ -1,0 +1,149 @@
+.navbar {
+    background-color: #4B4B4B;
+    color: white;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    height: 12vh;
+    font-size: 14px;
+    padding: 0 11% !important;
+}
+
+.title:hover {
+    color: white;
+}
+.navDropdownItem:hover {
+    color: white;
+    font-weight: 400;
+}
+.rightNavbarContainer {
+    background-color: #4B4B4B;
+    color: white;
+    border-radius: 5px;
+    height: 200px;
+    display: flex;
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Red Hat Display';
+}
+
+.navbarItems {
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.8px;
+}
+.main {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+.navbarItems:focus {
+    color: rgb(230, 230, 230);
+}
+
+.navbarItemsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+    height: 90vh;
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    padding: 10%;
+    /* padding: 4% 11% 1% 0; */
+    background-color: #4B4B4B;
+}
+.dropdownContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+}
+.navDropdownItem {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    font-weight: 100;
+}
+
+@media (min-width: 614px) {
+    .title {
+        font-size: 33px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 0 13% !important;   
+    }
+    .navbarItemsContainer {
+        width: 30%;
+        font-weight: 200;
+        font-size: 18px;
+        padding: 2%;
+    }
+    .navbarItems{
+        font-size: 20px;
+        padding: 2.5%;
+    }
+    .main {
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 0.8px;
+        margin: 0;
+    }
+    .dropdownContainer{
+        padding: 3%;
+        
+    }
+    .navDropdownItem {
+        font-weight: 200;
+        font-size: 18px;
+    }
+    .burgerMenu {
+        height: 50px;
+        width: 50px;
+    }
+
+    .navbarItems:hover {
+        color: rgb(230, 230, 230);
+        font-weight: 600;
+    }
+    
+    .navbarItems:focus {
+        color: rgb(230, 230, 230);
+        font-weight: 600;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+
+}
+
+
+@media (min-width: 1500px) {
+    .navbar {
+        padding: 0 13% !important;   
+    }
+    .navbarItemsContainer {
+        padding: 3%;
+    }
+    .navbarItems{
+        font-size: 19px;
+        padding: 1%;
+    }
+    .navDropdownItem {
+        font-weight: 200;
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,87 @@
+h1 {
+    margin-bottom: 100px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 20% 10% 10%;
+}
+
+.curriculum, .awards {
+    margin: auto 4%;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Red Hat Display';
+}
+
+.photoCv {
+    display: block;
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+    padding: 0% 0 20%;
+    margin: auto;
+}
+.awards {
+    font-size: 14px;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 20%;
+}
+.awards h2 {
+    padding: 5%;
+}
+
+@media (min-width: 768px) {
+    
+    .photoCv {
+        display: block;
+        max-height: 400px;
+        width: 40vw;
+    }
+    .curriculum {
+        margin-right: 7%;
+        font-size: 14px;
+    }
+    
+    .about {
+        padding: 23% 10%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .photoCv {
+        display: block;
+        max-height: 800px;
+    }
+    .curriculum, .awards {
+        font-size: 20px;
+        width: 80vw;
+    }
+    .about {
+        padding: 10% 6%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .about {
+        flex-direction: row;
+        padding: 10% 6% 0%;
+    }
+    
+    .curriculum, .awards {
+        font-size: 18px;
+        /* width: 80vw; */
+    }
+    .curriculum {
+        margin: 0 5%;
+    }
+    .awards {
+        padding-bottom: 10%;
+    }
+    .awards h2 {
+        padding: 3% 1%;
+    }
+}

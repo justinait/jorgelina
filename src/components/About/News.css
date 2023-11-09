@@ -1,0 +1,15 @@
+.prensaContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.prensaVideos {
+    width: 70vw;
+    padding: 5% 0;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10%;
+}
