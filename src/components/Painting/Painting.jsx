@@ -11,9 +11,9 @@ function Painting({data}) {
   
   return (
     <>
-      {array.map(e => {
-        return <PaintingModal photo={data[e]} />
-        // photo={data[e].image}
+      {array.map((e, i) => {
+        return <PaintingModal photo={data[e]} key={i} />
+        
       })}
     </>
   )

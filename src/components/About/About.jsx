@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Footer from '../Footer/Footer'
+import bio from '../../assets/bio.jpg'
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
       <h3>Biografía.</h3>
       <div className='about'>
         <a href='https://www.instagram.com/jorgelinaparkinson/' target="_blank">
-          <img src='./bio.jpg' alt="" className='photoCv'/>
+          <img src={bio} alt="" className='photoCv'/>
         </a>
         <div className='curriculum'>
           Desde 1987 comienza a realizar su proceso de aprendizaje con la prof. Chana Naon y luego con Amanda Mayor en Paraná.  

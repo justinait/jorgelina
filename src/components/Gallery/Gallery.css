@@ -1,6 +1,5 @@
 .gallery {
-    margin: 10%;
-    margin-top: 60px;
+    min-height: 80vh;
 }
 
 .serieTitle {
@@ -14,6 +13,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin: 10%;
+    margin-top: 60px;
 }
 .paintingContainer {
     padding-bottom: 15%;
@@ -33,16 +34,13 @@
         padding: 2%;
     }
     
-    .gallery {
-        margin-top: 13%;
-    }
-    
     .galleryContainer {
         flex-direction: row;
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: space-between;
+        margin-top: 13%;
     }
     
     .galleryPainting {

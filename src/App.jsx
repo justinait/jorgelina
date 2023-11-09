@@ -7,6 +7,9 @@ import Footer from './components/Footer/Footer';
 import GalleryContainer from './components/GalleryContainer/GalleryContainer';
 import News from './components/About/News';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 function App() {
   return (
     <BrowserRouter>
