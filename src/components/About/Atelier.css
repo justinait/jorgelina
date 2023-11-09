@@ -1,0 +1,26 @@
+.atelierImg {
+    width: 90vw;
+    margin: 15% 5% 0;
+}
+
+.mapContainer {
+    width: 90vw;
+    height: 180px;
+    
+    margin: 15% auto;
+    border-radius: 20px;
+}
+
+@media (min-width:1280px) {
+    .atelierImg {
+        margin: auto;    
+        width: 50vw;
+        margin: 6% 24% 0;
+    }
+    .mapContainer {
+        height: 300px;
+        width: 50vw;
+        margin: 5% auto;
+        border-radius: 25px;
+    }
+}

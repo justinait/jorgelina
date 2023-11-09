@@ -12,7 +12,9 @@
 h3 {
     text-align: center;
 }
-
+.prensaText {
+    text-align: left;
+}
 @media (min-width:1280px) {
     
     .prensaVideos {

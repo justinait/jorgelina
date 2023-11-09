@@ -5,7 +5,7 @@ h1 {
 .about {
     display: flex;
     flex-direction: column;
-    padding: 20% 10% 10%;
+    padding: 15% 10% 10%;
 }
 
 .curriculum, .awards {
@@ -46,7 +46,7 @@ h1 {
     }
     
     .about {
-        padding: 23% 10%;
+        padding: 20% 10%;
     }
 }
 
@@ -68,7 +68,7 @@ h1 {
 @media (min-width: 1280px) {
     .about {
         flex-direction: row;
-        padding: 10% 6% 0%;
+        padding: 6% 6% 0%;
     }
     
     .curriculum, .awards {

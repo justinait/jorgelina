@@ -4,7 +4,7 @@
     justify-content: space-around;
     background-color: #4B4B4B;
     color: white;
-    height: 30vh;
+    height: 23vh;
     font-weight: 100;
     font-size: small;
     align-items: flex-start;
@@ -13,6 +13,7 @@
 }
 .socialBox {
     margin: auto;
+    font-size: 12px;
 }
 .social {
     display: flex; 
@@ -41,6 +42,7 @@
     }
     .socialBox {
         margin: 0;
+        font-size: 14px;
     }
     
     .copy {
