@@ -8,11 +8,16 @@ h1 {
     padding: 15% 10% 10%;
 }
 
-.curriculum, .awards {
+.curriculum, .awards, .statement {
     margin: auto 4%;
     font-size: 12px;
     color: hsl(228, 12%, 48%);
     font-family: 'Red Hat Display';
+}
+.statement{
+    font-size: 13px;
+    padding: 8%;
+    padding-bottom: 25%;
 }
 
 .photoCv {
@@ -27,7 +32,6 @@ h1 {
     font-size: 14px;
     width: 80vw;
     margin: auto;
-    padding-bottom: 20%;
 }
 .awards h2 {
     padding: 5%;
@@ -43,6 +47,10 @@ h1 {
     .curriculum {
         margin-right: 7%;
         font-size: 14px;
+    }
+    .statement {
+        padding-bottom: 15%;
+        padding-top: 5%;
     }
     
     .about {
@@ -71,15 +79,12 @@ h1 {
         padding: 6% 6% 0%;
     }
     
-    .curriculum, .awards {
+    .curriculum, .awards, .statement {
         font-size: 18px;
         /* width: 80vw; */
     }
     .curriculum {
         margin: 0 5%;
-    }
-    .awards {
-        padding-bottom: 10%;
     }
     .awards h2 {
         padding: 3% 1%;

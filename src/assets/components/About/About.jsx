@@ -122,27 +122,32 @@ function About() {
         </ul>
       </div>
       
-      <div className='statement'>
         <h3>Statement.</h3>
+      <div className='statement'>
         Jorgelina Parkinson
         Nací en Paraná, Entre Ríos, Argentina en el año 1967. Vivo actualmente en Paraná.
-
+        <br />
+        <br />
 
         Mi entusiasmo por la pintura comienza a mis veinte años, en los talleres de la profesora y restauradora Chana Naon realizaba con ella cerámica y pintura y luego con la artista plástica Amanda Mayor, en la ciudad de Paraná. Mas tarde, en 1995, me traslado a Buenos Aires. Para perfeccionar mi pintura, concurro a los talleres de Marcelo Pellissier, Juan Garnica y Rubén Grau, más tarde concurro a las clases del artista Ernesto Pesce, en el 2001voy a la academia de Guillermo Roux, al taller de Norberto Marcet, arte sacro con Luis Quirós. Realicé también escultura con Alberto del Ponte.
-        Bueno, yo creo que nunca me plantee el “ser pintora”, se fue dando. Un día me encuentro con mi primer atril, una paleta, pinturas, y ahí comenzó este camino. Encuentro inspiración en situaciones cotidianas. Soy una artista que pinta lo que le rodea. Los paisajes siempre evocan un poco lo vivido, por suerte o por infortunio, tuve muchas mudanzas en mi vida. Así representé cada lugar en donde estuve.
-        Busco viajar para renovar mis retinas y poder transmitir lo que veo a través de paisajes, el Norte con sus montañas, el Sur con sus lagos, Córdoba, Santa Fé y Paraná con sus ríos.. En cada viaje completo mi galería con fotos de paisajes, flores, figura humana, que me sirven de disparador a la hora de comenzar una nueva obra.
-        En la primera etapa de mi proceso de aprendizaje, me centré en crear atmósferas a través de paisajes en composiciones simples. Utilicé la geometría casi tocando la abstracción, eliminé siempre lo superfluo logrando la síntesis deseada.
-        Defiendo una pintura de caballete, tonal, defiendo el lenguaje visual-figurativo que transmite una idea concreta para llegar con claridad al espectador. Al mismo tiempo intento expresar climas, atmósferas, para que mi pintura sea sugestiva y contenga algún misterio para captar al espectador.
-        Tengo tendencia a los tonos cálidos y terrosos. Paleta reducida, austera, invadida muy sutilmente por los tonos fríos. “No hay color sin grises, es el soporte de toda armonía cromática”, dice el gran maestro del paisaje André Lothe.
-        Cada día me levanto, preparo un mate y me voy a mi taller, donde encuentro la paz y la concentración que necesito para comenzar a trabajar. Si bien existe cierta constancia a la hora de empezar a pintar, no hay reglas para la elección de temas ni de técnicas.
-        Nunca me encuentro con ese miedo a la tela en blanco, si un día me pasa, busco inmediatamente inspiración en los grandes maestros de la pintura, ya sean argentinos o europeos.
+        Bueno, yo creo que nunca me plantee el “ser pintora”, se fue dando. Un día me encuentro con mi primer atril, una paleta, pinturas, y ahí comenzó este camino. Encuentro inspiración en situaciones cotidianas. Soy una artista que pinta lo que le rodea. Los paisajes siempre evocan un poco lo vivido, por suerte o por infortunio, tuve muchas mudanzas en mi vida. Así representé cada lugar en donde estuve.<br />
+        Busco viajar para renovar mis retinas y poder transmitir lo que veo a través de paisajes, el Norte con sus montañas, el Sur con sus lagos, Córdoba, Santa Fé y Paraná con sus ríos.. En cada viaje completo mi galería con fotos de paisajes, flores, figura humana, que me sirven de disparador a la hora de comenzar una nueva obra.<br />
+        En la primera etapa de mi proceso de aprendizaje, me centré en crear atmósferas a través de paisajes en composiciones simples. Utilicé la geometría casi tocando la abstracción, eliminé siempre lo superfluo logrando la síntesis deseada.<br />
+        Defiendo una pintura de caballete, tonal, defiendo el lenguaje visual-figurativo que transmite una idea concreta para llegar con claridad al espectador. Al mismo tiempo intento expresar climas, atmósferas, para que mi pintura sea sugestiva y contenga algún misterio para captar al espectador.<br />
+        Tengo tendencia a los tonos cálidos y terrosos. Paleta reducida, austera, invadida muy sutilmente por los tonos fríos. “No hay color sin grises, es el soporte de toda armonía cromática”, dice el gran maestro del paisaje André Lothe.<br />
+        Cada día me levanto, preparo un mate y me voy a mi taller, donde encuentro la paz y la concentración que necesito para comenzar a trabajar. Si bien existe cierta constancia a la hora de empezar a pintar, no hay reglas para la elección de temas ni de técnicas.<br />
+        Nunca me encuentro con ese miedo a la tela en blanco, si un día me pasa, busco inmediatamente inspiración en los grandes maestros de la pintura, ya sean argentinos o europeos.<br />
 
-        Soy una persona que se dedica a pleno a la pintura, enamorada de mi oficio. Estoy agradecida por los reconocimientos que se me han otorgado por mi trayectoria y me motiva poder vivir de mi trabajo y saber que alguien quiere adquirir obra mía.
-        Tengo un taller con alumnos. Me gusta el encuentro con el otro, pintar es un oficio solitario y de esta forma, no solo transmito lo mío, sino que hay preguntas y respuestas de parte del alumno que encuentro sumamente interesantes.
-        En la actualidad desarrollo una temática muy sentida por mí. Se trata de la serie de "Mujeres en la Sociedad de Principios del Siglo XX hasta hoy". Esta serie acentúa el recorrido por las diferentes épocas que las mujeres transitamos desde entonces con esfuerzo.
+        <br />
 
-        Agradezco haberme cruzado con maestros de la talla de Guillermo Roux, Norberto Marcet, quienes me han guiado en este camino del arte. De ellos aprendí que la constancia y la dedicación hacen al oficio, a ser fiel a lo que uno siente.
-        A aquel que elija tener mi obra, le agradezco que guarde un pedacito de mí en un rincón de su hogar, y deseo profundamente que puedan disfrutarla tal como yo lo haría. Que al verla puedan admirarla y sentir una conexión con ella. Volverse para atrás y volver a mirarla
+        Soy una persona que se dedica a pleno a la pintura, enamorada de mi oficio. Estoy agradecida por los reconocimientos que se me han otorgado por mi trayectoria y me motiva poder vivir de mi trabajo y saber que alguien quiere adquirir obra mía.<br />
+        Tengo un taller con alumnos. Me gusta el encuentro con el otro, pintar es un oficio solitario y de esta forma, no solo transmito lo mío, sino que hay preguntas y respuestas de parte del alumno que encuentro sumamente interesantes.<br />
+        En la actualidad desarrollo una temática muy sentida por mí. Se trata de la serie de "Mujeres en la Sociedad de Principios del Siglo XX hasta hoy". Esta serie acentúa el recorrido por las diferentes épocas que las mujeres transitamos desde entonces con esfuerzo.<br />
+        <br />
+
+        Agradezco haberme cruzado con maestros de la talla de Guillermo Roux, Norberto Marcet, quienes me han guiado en este camino del arte. De ellos aprendí que la constancia y la dedicación hacen al oficio, a ser fiel a lo que uno siente.<br />
+        A aquel que elija tener mi obra, le agradezco que guarde un pedacito de mí en un rincón de su hogar, y deseo profundamente que puedan disfrutarla tal como yo lo haría. Que al verla puedan admirarla y sentir una conexión con ella. Volverse para atrás y volver a mirarla.<br />
+
 
       </div>
       <Footer/>
