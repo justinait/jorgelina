@@ -40,17 +40,16 @@ function News() {
         <iframe
           className='prensaVideos'
           src="https://player.vimeo.com/video/883347968?autoplay=1&badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479#t=10"
-          // allow="autoplay"
           title="SGM Jorgelina Parkinson - Video"
           width='95%'
         />          
-        <p className='prensaText'>Arte en Vivo en la Ciudad de Santa Fe</p>
+        <p className='prensaTextVideo'>Muestra en el Museo de Salto Grande. 2023 </p>
         
         <video controls className='prensaVideos'>
           <source src="https://res.cloudinary.com/dsgxxcikg/video/upload/v1699474801/caiventures/lj6h61myz6no3xnd6wto.mp4" type="video/mp4" />
           Tu navegador no soporta la reproducción de videos.
         </video>
-        <p className='prensaText'>Arte en Vivo en la Ciudad de Santa Fe</p>
+        <p className='prensaTextVideo'>Arte en Vivo en la Ciudad de Santa Fe. Galería AG. Museo Maratón</p>
 
         <div className='prensaContainer'>
           

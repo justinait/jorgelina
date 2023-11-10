@@ -38,6 +38,10 @@ a{
     font-family: 'Red Hat Display';
     font-size: 13px;
 }
+.prensaTextVideo {
+    text-align: center;
+    width: 70vw;
+}
 .prensaPhoto {
     width: 100%;
     border: 1px solid black;
@@ -86,4 +90,17 @@ a{
         padding-top: 5%;
         font-size: 16px;
     }
+    
+    .prensaTextVideo {
+        text-align: center;
+        width: 70vw;
+        padding-top: 2%;
+    }
 }
+
+@media(min-width: 1500px){
+    .prensaVideos {
+        width: 55.5vw;
+    }
+}
+/* service_n34plz7 */
