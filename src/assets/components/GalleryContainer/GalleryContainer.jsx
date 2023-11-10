@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import db from '../../firebaseConfig';
 import { getDocs, collection } from 'firebase/firestore'
 import { useParams } from 'react-router-dom';
 import Gallery from '../Gallery/Gallery';
 import Footer from '../Footer/Footer';
+import db from '../../../firebaseConfig';
 
 function GalleryContainer() {
     

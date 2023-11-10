@@ -1,0 +1,45 @@
+.prensaDetailContainer {
+    padding: 4%;
+}
+
+.prensaDetail {
+    width: 90vw;
+    /* margin: ; */
+}
+
+.prensaDetailSecondary {
+    width: 90vw;
+    padding: 5% 0;
+}
+.prensaTextDetail{
+    font-family: 'red hat display';
+    font-size: 23px;
+    font-weight: 800;
+}
+.back {
+    color: black;
+    display: block;
+    margin: 7% 4% 3%;
+    width: fit-content;
+}
+
+@media (min-width:1280px) {
+    .prensaDetailContainer {
+        padding: 2% 14%;
+    }
+    .back {
+        margin: 5% 4% 2%;
+    }
+    .prensaTextDetail{
+        font-size: 35px;
+        font-weight: 600;
+        padding-bottom: 5%;
+    }
+    
+    .prensaDetail, .prensaDetailSecondary {
+        width: 70vw;
+    }
+    .css-i4bv87-MuiSvgIcon-root {
+        font-size: 3rem;
+    }
+}

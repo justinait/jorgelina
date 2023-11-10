@@ -1,6 +1,6 @@
 import React from 'react'
-import photo1 from '../../assets/taller.jpeg'
-import photo2 from '../../assets/taller (2).jpeg'
+import photo1 from '../../../assets/taller.jpeg'
+import photo2 from '../../../assets/taller (2).jpeg'
 import Footer from '../Footer/Footer'
 import './Atelier.css'
 
