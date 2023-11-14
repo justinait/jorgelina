@@ -9,13 +9,11 @@ function PaintingModal({photo}) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   
-  
   const [imagenUrl, setImagenUrl] = useState(null);
   useEffect(() => {
     const cargarImagen = async () => {
       try {
-        // Importar dinámicamente la imagen utilizando import()
-        const imagen = await import(`${photo.image}`);
+        const imagen = await import(`${photo.image}`);// /* @vite-ignore */
         setImagenUrl(imagen.default);
       } catch (error) {
         console.error('Error al cargar la imagen', error);
@@ -30,7 +28,6 @@ function PaintingModal({photo}) {
     <>
       <div className='paintingContainer'>
         {imagenUrl && <img className='galleryPainting' src={imagenUrl}  onClick={handleShow}/>}
-        {/* {imagenUrl && <img src={imagenUrl} alt="Descripción de la imagen" />} */}
         <p className='paintingDescription'> 
         {photo.award} 
         {photo.title} 
