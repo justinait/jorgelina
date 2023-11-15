@@ -1,0 +1,70 @@
+.contactInputText, .media {
+    font-weight: 200;
+    font-family: 'Red Hat Display';
+    margin: 8px auto;
+}
+.inputForm {
+    margin-bottom: 8px;
+    width: 56%;
+    
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+.media {
+    padding: 10% ;
+}
+.formContainer {
+    
+    text-align: center;
+}
+
+.formSendButton {
+    background: white;
+    border: 1px grey solid;
+    font-family: 'Red Hat Display';
+    margin: 7% auto 15%;
+    padding: 1%;
+    width: 20%;
+    border-radius: 8px;
+}
+
+.formSendButton:hover {
+    background: grey;
+    color: white;
+}
+.modalOk {
+    background: white !important;
+    height: 50vh;
+}
+.modal-header .btn-close {
+    width: 5px;
+    padding: 4px;
+    /* padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5); */
+    margin: calc(0 * var(--bs-modal-header-padding-y)) calc(1 * var(--bs-modal-header-padding-x)) calc(0 * var(--bs-modal-header-padding-y)) auto;
+    height: 5px;
+}
+
+@media(min-width: 1024px){
+    .inputForm{
+        height: 40px;
+        width: 40%;
+    }
+    .messageForm {
+        height: 140px;
+    }
+    .contactInputText {
+        margin: 12px auto;
+        font-size: 20px;
+    }
+    .media {
+        padding: 6% 13.5%;
+        font-size: 24px;
+    }
+    .formSendButton {
+        margin: 4% auto 12%;
+        padding: 0.7%;
+        width: 8%;
+        font-size: 18px;
+    }
+}

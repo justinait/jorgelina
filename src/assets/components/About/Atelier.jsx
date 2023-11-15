@@ -9,7 +9,7 @@ import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 function Atelier() {
     const { isLoaded } = useJsApiLoader({
       id: 'f5959e89199c6139',
-      googleMapsApiKey: 'AIzaSyC8cRrh5YFeJfMpcn6-XCV2we7GdZ9hPxA'
+      googleMapsApiKey: import.meta.env.VITE_API_MAPSKEY
     })
   return (
     <div>

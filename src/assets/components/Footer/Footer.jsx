@@ -25,7 +25,7 @@ function Footer() {
           <a href='https://www.instagram.com/jorgelinaparkinson/' target="_blank"  style={{textDecoration:'none', color: 'white'}}>
             < InstagramIcon fontSize='medium'/> 
           </a>
-          <p>@jorgelinaparkinson</p>
+          <p>jorgelinaparkinson</p>
         </div>
 
         <div className='social'>

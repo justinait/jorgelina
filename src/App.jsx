@@ -10,6 +10,7 @@ import Atelier from './assets/components/About/Atelier';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NewsDetail from './assets/components/About/NewsDetail';
 import CheckScroll from './CheckScroll';
+import { Contact } from './assets/components/About/Contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/about' element={< About />} />
         <Route path='/news' element={< News />} />
         <Route path='/atelier' element={< Atelier />} />
+        <Route path='/contact' element={< Contact />} />
 
         <Route path='/:category' element={< GalleryContainer />} />
         <Route path='/prensa/:id' element={< NewsDetail />} />

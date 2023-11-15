@@ -1,5 +1,4 @@
 import React from 'react'
-import Painting from '../Painting/Painting'
 import './Gallery.css'
 import PaintingModal from '../PaintingModal/PaintingModal'
 
