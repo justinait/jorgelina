@@ -1,16 +1,16 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css'
-import photo1 from '../../paintings/landscape/landscape (45).jpg'
-import photo2 from '../../paintings/women/women (6).jpg'
-import photo3 from '../../paintings/everyday-situations/situations (14).jpg'
+import photo1 from '/paintings/landscape/landscape (45).jpg'
+import photo2 from '/paintings/women/women (6).jpg'
+import photo3 from '/paintings/everyday-situations/situations (14).jpg'
 
-import photo4 from '../../paintings/bridges-ports/ports (14).jpg'
-import photo5 from '../../paintings/women/women (14).jpg'
-import photo6 from '../../paintings/landscape/landscape (24).jpg'
+import photo4 from '/paintings/bridges-ports/ports (14).jpg'
+import photo5 from '/paintings/women/women (14).jpg'
+import photo6 from '/paintings/landscape/landscape (24).jpg'
 
-import photo7 from '../../paintings/everyday-situations/situations (11).jpg'
-import photo8 from '../../paintings/everyday-situations/situations (1).jpg'
-import photo9 from '../../paintings/stairs/stairs (2).jpg'
+import photo7 from '/paintings/everyday-situations/situations (11).jpg'
+import photo8 from '/paintings/everyday-situations/situations (1).jpg'
+import photo9 from '/paintings/stairs/stairs (2).jpg'
 
 function CarouselFade() {
   return (

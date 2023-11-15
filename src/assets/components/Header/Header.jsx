@@ -31,20 +31,20 @@ function Header() {
   
   const dropdown = (
     <div className='dropdownContainer'>
-      <Link to="/gallery/ports2" onClick={handleClick} className='navDropdownItem'>Puentes y puertos</Link>
-      <Link to="/gallery/landscape2" onClick={handleClick} className='navDropdownItem'>Paisajes</Link>
-      <Link to="/gallery/parana2" onClick={handleClick} className='navDropdownItem'>Paraná</Link>
-      <Link to="/gallery/route402" onClick={handleClick} className='navDropdownItem'>Ruta 40</Link>
-      <Link to="/gallery/situations2" onClick={handleClick} className='navDropdownItem'>Situaciones cotidianas</Link>
-      <Link to="/gallery/women2" onClick={handleClick} className='navDropdownItem'>Mujeres en el Siglo XX</Link>
-      <Link to="/gallery/faces2" onClick={handleClick} className='navDropdownItem'>Rostros</Link>
-      <Link to="/gallery/nature" onClick={handleClick} className='navDropdownItem'>Habitar la Naturaleza</Link>
-      <Link to="/gallery/stairs" onClick={handleClick} className='navDropdownItem'>Escaleras</Link>
-      <Link to="/gallery/still-life2" onClick={handleClick} className='navDropdownItem'>Naturaleza muerta</Link>
-      <Link to="/gallery/ink2" onClick={handleClick} className='navDropdownItem'>Tinta</Link>
-      <Link to="/gallery/cinder2" onClick={handleClick} className='navDropdownItem'>Carbonilla</Link>
-      {/* <Link to="/gallery/human-figure2" onClick={handleClick} className='navDropdownItem'>Figura humana</Link> */}
-      {/* <Link to="/gallery/interiors2" onClick={handleClick} className='navDropdownItem'>Interiores</Link> */}
+      <Link to="/ports2" onClick={handleClick} className='navDropdownItem'>Puentes y puertos</Link>
+      <Link to="/landscape2" onClick={handleClick} className='navDropdownItem'>Paisajes</Link>
+      <Link to="/parana2" onClick={handleClick} className='navDropdownItem'>Paraná</Link>
+      <Link to="/route402" onClick={handleClick} className='navDropdownItem'>Ruta 40</Link>
+      <Link to="/situations2" onClick={handleClick} className='navDropdownItem'>Situaciones cotidianas</Link>
+      <Link to="/women2" onClick={handleClick} className='navDropdownItem'>Mujeres en el Siglo XX</Link>
+      <Link to="/faces2" onClick={handleClick} className='navDropdownItem'>Rostros</Link>
+      <Link to="/nature" onClick={handleClick} className='navDropdownItem'>Habitar la Naturaleza</Link>
+      <Link to="/stairs" onClick={handleClick} className='navDropdownItem'>Escaleras</Link>
+      <Link to="/still-life2" onClick={handleClick} className='navDropdownItem'>Naturaleza muerta</Link>
+      <Link to="/ink2" onClick={handleClick} className='navDropdownItem'>Tinta</Link>
+      <Link to="/cinder2" onClick={handleClick} className='navDropdownItem'>Carbonilla</Link>
+      {/* <Link to="/human-figure2" onClick={handleClick} className='navDropdownItem'>Figura humana</Link> */}
+      {/* <Link to="/interiors2" onClick={handleClick} className='navDropdownItem'>Interiores</Link> */}
     </div>
     )
 

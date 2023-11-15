@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import './PaintingModal.css'
 
-function PaintingModal({photo}) {
+function PaintingModal({data}) {
   
   const [show, setShow] = useState(false);
 
@@ -10,37 +10,37 @@ function PaintingModal({photo}) {
   const handleShow = () => setShow(true);
   
   const [imagenUrl, setImagenUrl] = useState(null);
-  useEffect(() => {
-    const cargarImagen = async () => {
-      try {
-        const imagen = await import(/* @vite-ignore */`${photo.image}`); 
-        setImagenUrl(imagen.default);
-      } catch (error) {
-        console.error('Error al cargar la imagen', error);
-      }
-    };
 
-    cargarImagen();
-  }, [photo]);
-  const paintingImage = photo && photo.image;
+  // useEffect(() => {
+  //   const cargarImagen = async () => {
+  //     try {
+  //       const imagen = await import(/* @vite-ignore */`${data.image}`); 
+  //       setImagenUrl(imagen.default);
+  //     } catch (error) {
+  //       console.error('Error al cargar la imagen', error);
+  //     }
+  //   };
+
+  //   cargarImagen();
+  // }, [data]);
+  const paintingImage = data && data.image;
 
   return (
     <>
       <div className='paintingContainer'>
-        {imagenUrl && <img className='galleryPainting' src={imagenUrl}  onClick={handleShow}/>}
+        {/* {imagenUrl && <img className='galleryPainting' src={imagenUrl}  onClick={handleShow}/>} */}
+        <img className='galleryPainting' src={paintingImage}  onClick={handleShow}/>
         <p className='paintingDescription'> 
-        {photo.award} 
-        {photo.title} 
+        {data.award} 
+        {data.title} 
         <br/>
-        {photo.type} 
+        {data.type} 
         <br/>
-        {photo.cm}</p>    
+        {data.cm}</p>    
       </div>
       
-      {/* <p> {`${photo.award}.`} {photo.title + '.'} {photo.type + '.'} {photo.cm}</p> */}
-
       <Modal show={show} onHide={handleClose}>
-        <img src={imagenUrl}  alt={photo.title} className='modalPhoto' />
+        <img src={imagenUrl}  alt={data.title} className='modalPhoto' />
       </Modal>
 
     </>

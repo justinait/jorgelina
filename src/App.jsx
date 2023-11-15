@@ -23,7 +23,7 @@ function App() {
         <Route path='/news' element={< News />} />
         <Route path='/atelier' element={< Atelier />} />
 
-        <Route path='/gallery/:category' element={< GalleryContainer />} />
+        <Route path='/:category' element={< GalleryContainer />} />
         <Route path='/prensa/:id' element={< NewsDetail />} />
         
       </Routes>
