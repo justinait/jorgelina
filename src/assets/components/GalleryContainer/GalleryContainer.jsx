@@ -56,7 +56,6 @@ function GalleryContainer() {
 
   return(
     <div>
-      {console.log(listPaintings)}
       <Gallery paintings={listPaintings}/>
       < Footer />
     </div>
