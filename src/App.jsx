@@ -9,12 +9,14 @@ import Atelier from './assets/components/About/Atelier';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NewsDetail from './assets/components/About/NewsDetail';
+import CheckScroll from './CheckScroll';
 
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
+      <CheckScroll/>
       <Routes className='appRoutes'>
 
         <Route path='/' element={< Home />} />

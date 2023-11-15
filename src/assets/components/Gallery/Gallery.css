@@ -30,7 +30,7 @@
     
     .paintingContainer {
         padding-bottom: unset;
-        width: 43%;
+        width: 50%;
         padding: 2%;
     }
     
@@ -39,7 +39,6 @@
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: space-between;
         margin-top: 13%;
     }
     
@@ -59,7 +58,7 @@
 @media (min-width: 992px){
 
     .paintingContainer {
-        width: 33%;
+        width: 33.3%;
         padding: 2%;
     }
 

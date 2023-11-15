@@ -55,10 +55,9 @@ function Header() {
     dropdown}
 
     <NavLink className='navbarItems' onClick={handleClick} to="/about">BIO</NavLink>
-    {/* <NavLink className='navbarItems' onClick={handleClick} to="/about">STATEMENT</NavLink> */}
     <NavLink className='navbarItems' onClick={handleClick} to="/atelier">TALLER</NavLink>
     <NavLink className='navbarItems' onClick={handleClick} to="/news">PRENSA</NavLink>
-    <NavLink className='navbarItems' onClick={handleClick} to="/about">CONTACTO</NavLink>
+    {/* <NavLink className='navbarItems' onClick={handleClick} to="/about">CONTACTO</NavLink> */}
   
   </div>)
 

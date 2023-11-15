@@ -10,7 +10,10 @@
     width: 100%;
     top: 0;
 }
-
+.darkBackground {
+    background-color: rgba(0, 0, 0, 0.5); /* Puedes ajustar el valor de opacidad según tus preferencias */
+  }
+  
 .title:hover {
     color: white;
 }
