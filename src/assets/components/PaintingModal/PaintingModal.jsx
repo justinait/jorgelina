@@ -13,7 +13,7 @@ function PaintingModal({photo}) {
   useEffect(() => {
     const cargarImagen = async () => {
       try {
-        const imagen = await import(`${photo.image}`);// /* @vite-ignore */
+        const imagen = await import(/* @vite-ignore */`${photo.image}`); 
         setImagenUrl(imagen.default);
       } catch (error) {
         console.error('Error al cargar la imagen', error);
@@ -39,9 +39,8 @@ function PaintingModal({photo}) {
       
       {/* <p> {`${photo.award}.`} {photo.title + '.'} {photo.type + '.'} {photo.cm}</p> */}
 
-
       <Modal show={show} onHide={handleClose}>
-          <img src={imagenUrl}  alt={photo.title} className='modalPhoto' />
+        <img src={imagenUrl}  alt={photo.title} className='modalPhoto' />
       </Modal>
 
     </>
