@@ -15,9 +15,10 @@ function Atelier() {
     <div>
       <h3>Taller.</h3>
 
-      <p className='portland'>Mi taller queda en la ex fábrica de portland de la Ciudad de Paraná. 
+      <p className='portland'>Mi taller queda en la ex Fábrica de Portland de la Ciudad de Paraná. 
       <br />Es el antiguo laboratorio de la fábrica.
-      <br /> <strong>Av. Estrada al 2100</strong> </p>        
+      <br /> <strong>Av. Estrada al 2100</strong> </p>    
+          
       <img src={photo1} alt="La cementera - mi taller" className='atelierImg' />
       <img src={photo2} alt="La cementera - mi taller" className='atelierImg' />
 

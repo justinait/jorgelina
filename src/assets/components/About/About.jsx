@@ -124,7 +124,7 @@ function About() {
       
         <h3>Statement.</h3>
       <div className='statement'>
-        Jorgelina Parkinson
+        
         Nací en Paraná, Entre Ríos, Argentina en el año 1967. Vivo actualmente en Paraná.
         <br />
         <br />
