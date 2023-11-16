@@ -44,11 +44,9 @@ a{
 }
 .prensaPhoto {
     width: 100%;
-    border: 1px solid black;
     max-height: 300px;
     object-position: top;
     object-fit: cover;
-    border: 1px solid #000000ab;
     padding: 1%;
 }
 
