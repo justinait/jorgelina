@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer'
 import './Atelier.css'
 
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
+import { Link } from 'react-router-dom'
 
 function Atelier() {
     const { isLoaded } = useJsApiLoader({
@@ -21,6 +22,10 @@ function Atelier() {
           
       <img src={photo1} alt="La cementera - mi taller" className='atelierImg' />
       <img src={photo2} alt="La cementera - mi taller" className='atelierImg' />
+
+      <Link to='/contact'>
+        <p className='contactMe'>Contactame y coordinamos una visita al taller</p>
+      </Link>
 
       {isLoaded && 
         <GoogleMap 

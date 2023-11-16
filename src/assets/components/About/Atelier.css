@@ -11,10 +11,19 @@
 .mapContainer {
     width: 90vw;
     height: 180px;
-    margin: 15% auto;
+    margin: 5% auto 15%;
     border-radius: 20px;
 }
-
+.contactMe {
+    font-weight: 500;
+    text-align: center;
+    margin: 12% 0 5%;
+    font-family: 'Red Hat Display';
+    color: black;
+}
+.contactMe:hover{
+    color: grey;
+}
 @media (min-width:1280px) {
     .atelierImg {
         margin: auto;    
@@ -24,7 +33,7 @@
     .mapContainer {
         height: 300px;
         width: 50vw;
-        margin: 5% auto;
+        margin: 3% auto 12%;
         border-radius: 25px;
         padding-bottom: 10%;
     }
@@ -32,5 +41,10 @@
         padding: 5% 24% 0;
         font-family: 'Red Hat Display';
         font-size: 20px;
+    }
+    .contactMe {
+        font-weight: 400;
+        margin: 8% 0 2%;
+        font-size: 22px;
     }
 }
