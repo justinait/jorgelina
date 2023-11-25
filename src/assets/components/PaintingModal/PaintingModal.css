@@ -1,7 +1,6 @@
 .modalPhoto{
     max-width: 80vw;
     max-height: 90vh;
-    min-height: 30vh;
 }
 
 .modal-content {
@@ -12,7 +11,6 @@
 }
 
 .fade {
-    /* background-color: #fff9 !important; */
     background-color: #0007 !important;
     display: flex !important;
     justify-content: center;

@@ -24,7 +24,7 @@ function Atelier() {
       <img src={photo2} alt="La cementera - mi taller" className='atelierImg' />
 
       <Link to='/contact'>
-        <p className='contactMe'>Contactame y coordinamos una visita al taller</p>
+        <p className='contactMe'>Contactame para coordinar una visita</p>
       </Link>
 
       {isLoaded && 
