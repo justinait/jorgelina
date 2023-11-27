@@ -1,11 +1,8 @@
-<img align="center" src="/jor.png">
+<img align="center" src='./public/jor.png'>
 
 <h3>👉🏻 Jorgelina Parkinson</h3>
 
 <h3>👉🏻 <b>Deploy: <a href="https://jorgelinaparkinson.com/">Jorgelina Parkinson</a></b></h3>
-
-<hr/>
-
 
 <hr/>
 
