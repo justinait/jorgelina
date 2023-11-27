@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css'
-import photo1 from '/paintings/landscape/landscape (45).jpg'
+import photo1 from '/paintings/landscape/landscape (46).jpg'
 import photo2 from '/paintings/women/women (6).jpg'
 import photo3 from '/paintings/everyday-situations/situations (14).jpg'
 
