@@ -40,7 +40,7 @@ function News() {
         <iframe
           className='prensaVideos'
           src="https://player.vimeo.com/video/883347968?autoplay=1&badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479#t=10"
-          title="SGM Jorgelina Parkinson - Video"
+          title="Jorgelina Parkinson"
           width='95%'
         />          
         <p className='prensaTextVideo'>Muestra en el Museo de Salto Grande. 2023 </p>
