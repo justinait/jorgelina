@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import React, { useState } from 'react'
+import CloseIcon from '@mui/icons-material/Close';
 
 import './Header.css'
 
@@ -63,11 +64,16 @@ function Header() {
 
   return (
     <div className='navbar'>
-      <Link className='title' to="/">Jorgelina Parkinson</Link>
+      <Link className='title' to="/" onClick={()=>showDropdown(false)}>Jorgelina Parkinson</Link>
       
       <>
-        <MenuRoundedIcon onClick={handleDropdownMobile} className='burgerMenu' fontSize='large'  />
-        {show && navbar}
+      {
+        !show ?
+        <MenuRoundedIcon onClick={handleDropdownMobile} className='burgerMenu' fontSize='large'  /> :
+        <CloseIcon onClick={handleDropdownMobile} className='burgerMenu' fontSize='large'   />
+
+      }
+      {show && navbar}
       </>
       
     </div>
