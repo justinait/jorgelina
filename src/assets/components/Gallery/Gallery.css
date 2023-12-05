@@ -44,7 +44,7 @@
     
     .galleryPainting {
         width: 80%;
-        object-fit: cover;
+        object-fit: fill;
         justify-content: flex-start;
         aspect-ratio: 1/1;
         margin-top: 0%;
