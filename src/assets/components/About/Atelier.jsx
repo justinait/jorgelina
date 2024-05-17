@@ -35,10 +35,10 @@ function Atelier() {
           mapId='f5959e89199c6139'
           className='mapContainer'
         >
-            <Marker 
-            position={{ lat: -31.709889, lng: -60.551356 }} 
-            
-            />
+          <Marker 
+          position={{ lat: -31.709889, lng: -60.551356 }} 
+          
+          />
         </GoogleMap>
       }
           
