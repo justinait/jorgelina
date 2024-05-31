@@ -46,7 +46,7 @@
         width: 80%;
         object-fit: cover;
         justify-content: flex-start;
-        aspect-ratio: 1/1;
+        aspect-ratio: 1/1 !important;
         margin-top: 0%;
     }
     
