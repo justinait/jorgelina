@@ -37,12 +37,14 @@ function News() {
       <div className='newsContainer'>
         <h3>Prensa.</h3>
         
-        <iframe
+          <iframe src="https://player.vimeo.com/video/883347968?h=3b913be970&title=0&byline=0&portrait=0" 
           className='prensaVideos'
-          src="https://player.vimeo.com/video/883347968?autoplay=1&badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479#t=10"
-          title="Jorgelina Parkinson"
           width='95%'
-        />          
+          frameborder="0" 
+          allow="autoplay; fullscreen; picture-in-picture" 
+          allowfullscreen>
+          </iframe>
+        
         <p className='prensaTextVideo'>Muestra en el Museo de Salto Grande. 2023 </p>
         
         <video controls className='prensaVideos'>

@@ -120,6 +120,9 @@
         height: 50px;
         width: 50px;
     }
+    .burgerMenu:hover {
+        cursor: pointer;
+    }
 
     .navbarItems:hover {
         color: rgb(230, 230, 230);
