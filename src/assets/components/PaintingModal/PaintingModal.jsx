@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import './PaintingModal.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function PaintingModal({data}) {
   
@@ -14,7 +15,7 @@ function PaintingModal({data}) {
   return (
     <>
       <div className='paintingContainer'>
-        <img className='galleryPainting' src={paintingImage}  onClick={handleShow}/>
+        <LazyLoadImage className='galleryPainting' src={paintingImage} onClick={handleShow} threshold={300}/>
         <p className='paintingDescription'> 
         {data.award} 
         {data.title} 
@@ -25,7 +26,7 @@ function PaintingModal({data}) {
       </div>
       
       <Modal show={show} onHide={handleClose}>
-        <img src={paintingImage}  alt={data.title} className='modalPhoto' />
+        <LazyLoadImage src={paintingImage}  alt={data.title} className='modalPhoto' />
       </Modal>
 
     </>

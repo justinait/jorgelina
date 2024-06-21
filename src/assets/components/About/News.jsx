@@ -13,6 +13,7 @@ import photo9 from '../../../assets/prensa9.jpeg'
 import photo10 from '../../../assets/prensa10.jpeg'
 import photo11 from '../../../assets/prensa11.jpeg'
 import photo12 from '../../../assets/prensa12.jpeg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { Link, useParams } from 'react-router-dom'
 
@@ -56,7 +57,7 @@ function News() {
         <div className='prensaContainer'>
           
           <a target='_blank' className='prensaItem' href="https://lt15concordia.com.ar/index.php/2023/10/20/el-museo-de-salto-grande-se-lucio-con-la-nueva-muestra-de-obras-de-jorgelina-parkinson/">
-            <img src={photo1} alt="diario" className='prensaPhoto' />
+            <LazyLoadImage src={photo1} alt="diario" className='prensaPhoto' />
             <p className='prensaText'>Muestra en el Museo de Salto Grande. 2023</p>
           </a>
 
@@ -64,7 +65,7 @@ function News() {
             prensa.map((e, i)=> {
               return (
                 <Link to={`/prensa/${e.id}`} key={e.id} className='prensaItem'>
-                  <img src={e.image} alt="" className='prensaPhoto'/>
+                  <LazyLoadImage src={e.image} alt="" className='prensaPhoto'/>
                   <p className='prensaText'>{e.text}</p>
                 </Link>
               )

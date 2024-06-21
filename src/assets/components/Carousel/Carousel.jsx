@@ -1,5 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import photo1 from '/paintings/landscape/landscape (46).jpg'
 import photo2 from '/paintings/women/women (6).jpg'
 import photo3 from '/paintings/everyday-situations/situations (14).jpg'
@@ -18,21 +20,21 @@ function CarouselFade() {
       {/* Desktop Carousel */}
       <Carousel fade className='carousel carouselDesktop'>
         <Carousel.Item className='carouselItem'>
-          <img
+          <LazyLoadImage
             className="d-block w-100"
             src={photo1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item className='carouselItem'>
-          <img
+          <LazyLoadImage
             className="d-block w-100"
             src={photo2}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item className='carouselItem'>
-          <img
+          <LazyLoadImage
             className="d-block w-100"
             src={photo3}
             alt="Third slide"
@@ -43,21 +45,21 @@ function CarouselFade() {
       {/* Mobile Carousel */}
       <Carousel fade className='carousel carouselMobile'>
       <Carousel.Item className='carouselItem'>
-        <img
+        <LazyLoadImage
           className="d-block w-100"
           src={photo4}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
-        <img
+        <LazyLoadImage
           className="d-block w-100"
           src={photo5}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
-        <img
+        <LazyLoadImage
           className="d-block w-100"
           src={photo6}
           alt="Third slide"
@@ -68,21 +70,21 @@ function CarouselFade() {
       {/* Tablet Carousel */}
       <Carousel fade className='carousel carouselTablet'>
       <Carousel.Item className='carouselItem'>
-        <img
+        <LazyLoadImage
           className="d-block w-100"
           src={photo7}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
-        <img
+        <LazyLoadImage
           className="d-block w-100"
           src={photo8}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
-        <img
+        <LazyLoadImage
           className="d-block w-100"
           src={photo9}
           alt="Third slide"

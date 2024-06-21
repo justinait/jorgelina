@@ -3,15 +3,16 @@ import photo1 from '../../../assets/taller.jpeg'
 import photo2 from '../../../assets/taller (2).jpeg'
 import Footer from '../Footer/Footer'
 import './Atelier.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import { Link } from 'react-router-dom'
 
 function Atelier() {
-    const { isLoaded } = useJsApiLoader({
-      id: 'f5959e89199c6139',
-      googleMapsApiKey: import.meta.env.VITE_API_MAPSKEY
-    })
+  const { isLoaded } = useJsApiLoader({
+    id: 'f5959e89199c6139',
+    googleMapsApiKey: import.meta.env.VITE_API_MAPSKEY
+  })
   return (
     <div>
       <h3>Taller.</h3>
@@ -20,8 +21,8 @@ function Atelier() {
       <br />Es el antiguo laboratorio de la fábrica.
       <br /> <strong>Av. Estrada al 2100</strong> </p>    
           
-      <img src={photo1} alt="La cementera - mi taller" className='atelierImg' />
-      <img src={photo2} alt="La cementera - mi taller" className='atelierImg' />
+      <LazyLoadImage src={photo1} alt="La cementera - mi taller" className='atelierImg' />
+      <LazyLoadImage src={photo2} alt="La cementera - mi taller" className='atelierImg' />
 
       <Link to='/contact'>
         <p className='contactMe'>Contactame para coordinar una visita</p>

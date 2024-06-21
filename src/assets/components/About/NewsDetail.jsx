@@ -14,6 +14,7 @@ import photo9 from '../../../assets/prensa9.jpeg'
 import photo10 from '../../../assets/prensa10.jpeg'
 import photo11 from '../../../assets/prensa11.jpeg'
 import photo12 from '../../../assets/prensa12.jpeg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { Link, useParams } from 'react-router-dom'
 import Footer from '../Footer/Footer'
@@ -54,8 +55,8 @@ function NewsDetail() {
         <div className='prensaDetailContainer'>
           
           <p className='prensaTextDetail'>{news.text}</p>
-          <img src={news.image} className='prensaDetail' alt={news.text} />
-          <img src={news.secondaryImage} className='prensaDetailSecondary' alt="" />
+          <LazyLoadImage src={news.image} className='prensaDetail' alt={news.text} />
+          <LazyLoadImage src={news.secondaryImage} className='prensaDetailSecondary' alt="" />
         </div>
       }
       <Link to='/news' className='back'><ArrowBackIcon/> </Link>
