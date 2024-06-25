@@ -33,7 +33,7 @@
     color: white;
     text-decoration: none;
     font-size: 22px;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display Variable', sans-serif;
 }
 
 .navbarItems {
@@ -76,7 +76,7 @@
     color: white;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display Variable', sans-serif;
     font-weight: 100;
     margin-bottom: 3px;
 }

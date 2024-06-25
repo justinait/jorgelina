@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NewsDetail from './assets/components/About/NewsDetail';
 import CheckScroll from './CheckScroll';
 import { Contact } from './assets/components/About/Contact';
-
+import '@fontsource-variable/red-hat-display';
 
 function App() {
   return (

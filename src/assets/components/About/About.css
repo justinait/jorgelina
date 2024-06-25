@@ -11,7 +11,7 @@ h1 {
 .curriculum, .awards, .statement {
     margin: auto 4%;
     color: hsl(228, 12%, 48%);
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display Variable', sans-serif;
 }
 .statement{
     padding: 8%;

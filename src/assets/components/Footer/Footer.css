@@ -9,7 +9,7 @@
     font-size: small;
     align-items: flex-start;
     flex-direction: column;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display Variable', sans-serif;
 }
 .socialBox {
     margin: auto;

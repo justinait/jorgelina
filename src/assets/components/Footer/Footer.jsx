@@ -49,7 +49,7 @@ function Footer() {
       {/* Jorgelina Parkinson - Artista Plástica */}
       <div className='copy'>
         Paraná, Entre Ríos, Argentina.
-        <p >© Jorgelina Parkinson 2023 - Desarrollada por <a href='https://justinaiturraspe.vercel.app/' target="_blank" style={{textDecoration:'none', color: 'white'}}>Justina Iturraspe</a></p>
+        <p >© Jorgelina Parkinson 2023 - Powered by <a href='https://imjustwebs.com/' target="_blank" style={{textDecoration:'none', color: 'white'}}>I'mJustWebs</a></p>
       </div>
       
       </div>

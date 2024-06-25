@@ -1,6 +1,6 @@
 .contactInputText, .media {
     font-weight: 200;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display Variable', sans-serif;
     margin: 8px auto;
 }
 .inputForm {
@@ -22,7 +22,7 @@
 .formSendButton {
     background: white;
     border: 1px grey solid;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display Variable', sans-serif;
     margin: 7% auto 15%;
     padding: 1%;
     width: 20%;
