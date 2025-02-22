@@ -19,6 +19,23 @@
     
     <title>Jorgelina Parkinson</title>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSKC2ZYYXK"></script>
+    <script>
+      // Inicialización de Google Analytics
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      // Configuración con el ID de medición
+      gtag('config', 'G-SSKC2ZYYXK', {
+        page_path: window.location.pathname, // Registra la URL de la página actual
+        send_page_view: true // Envía una vista de página al cargar el sitio
+      });
+    </script>
+
   </head>
   <body>
     <div id="root"></div>

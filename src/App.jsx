@@ -12,10 +12,12 @@ import NewsDetail from './assets/components/About/NewsDetail';
 import CheckScroll from './CheckScroll';
 import { Contact } from './assets/components/About/Contact';
 import '@fontsource-variable/red-hat-display';
+import usePageTracking from './usePageTracking';
 
 function App() {
   return (
     <BrowserRouter>
+      <PageTracker />
       <Header />
       <CheckScroll/>
       <Routes className='appRoutes'>
@@ -34,5 +36,8 @@ function App() {
     </BrowserRouter>
   );
 }
-
+const PageTracker = () => {
+  usePageTracking();
+  return null;
+};
 export default App;
